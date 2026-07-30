@@ -299,6 +299,13 @@ h3 {
   margin-top: 18px;
 }
 
+.cellar-line {
+  color: rgba(232, 220, 200, 0.9) !important;
+  font-family: var(--serif);
+  font-size: clamp(1.08rem, 2vw, 1.35rem);
+  font-style: italic;
+}
+
 .distillery-card {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(320px, 0.62fr);
